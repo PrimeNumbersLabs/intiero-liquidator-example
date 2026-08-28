@@ -49,6 +49,11 @@ Free, no key required, CORS-open. Base URL: `https://testnet.intiero.com/api`
 
 Full reference: [testnet.intiero.com/status](https://testnet.intiero.com/status)
 
+## Running it continuously
+
+See the [Operations Runbook](RUNBOOK.md) for PM2/systemd setup, healthy-output
+examples, a failure-mode table, monitoring, and key rotation.
+
 ## Safety notes
 
 - **Never put a mainnet private key in `.env`.** Create a fresh wallet for this.
